@@ -2,7 +2,7 @@ import * as LaunchDarkly from '@launchdarkly/node-server-sdk';
 import { batchSize, contextForOneShot, contextForTraffic, isLoadProbe, probeSummary, scheduledEvaluations } from './traffic.mjs';
 
 const repository = 'demo-pricing';
-const release = 'v002';
+const release = 'v003';
 const flags = ["demo-pricing-engine-v2","demo-tax-calculation-v2"];
 const profiles = ['production', 'staging', 'test', 'dev'];
 const safeIdentifier = /^[A-Za-z0-9][A-Za-z0-9._-]*$/;
